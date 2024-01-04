@@ -1,0 +1,226 @@
+*
+body{
+    background-color: black;
+}
+.container
+{
+    background-color: white;
+    height: auto;
+    width: auto;
+}
+#video-container{
+    background-color:rgb(0, 0, 0);
+    margin:0px;
+    overflow: hidden;
+    padding:40px;
+    height:60%;
+    
+    
+}
+
+#video-background
+{ 
+    position:relative;
+    width: 1305PX;
+    height: 40%; 
+    overflow:hidden;
+    object-fit:fill;   
+}
+#video-background2
+{ 
+    position:relative;
+    width: 1353px;
+    height: 650px; 
+    overflow:hidden;
+    object-fit:cover;   
+}
+#box2{
+    background-color:black;
+    height:610px;
+    width: 1500px;  
+    margin-left:-50px;
+}
+#box2 img
+{   position:absolute;
+    object-fit:cover;
+    height:590px;
+    margin:-50px 0;
+    margin-left: 40px;
+    padding: 70px;
+    
+}
+#video-container2{
+    background-color:red;
+    height:650px;
+}
+#box4
+{
+    background-color: rgba(255, 255, 255, 0.961);
+    height: 680px;
+}
+#box4 img
+{
+ width: 400px;
+ height:400px;
+ padding:150px 490px;
+
+}
+nav
+{
+    background:#FF6600;
+    height: 80px;
+    width: 100%;
+}
+label.portfolio
+{
+    color:white;
+    font-size: 35px;
+    line-height:60px;
+    padding: 0 40px;
+    font-family: monospace;
+    font-weight: bold;
+}
+nav ul
+{
+    float: right;
+    margin-right: 120px;
+    
+}
+
+nav ul li
+{   
+    display: inline-block;
+    line-height: 30px;
+    margin:0 10px;
+    
+} 
+nav ul li a
+{
+    color:white;
+    font-size: 25px;
+    font-family: monospace;
+    
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+   
+    
+}
+  #text{
+      position:absolute;
+      bottom:-5%;
+      left:17%;
+      transform: translate(-50%, -50%);
+      color: white;
+      font-size: 25px;
+      text-align: left;
+    }
+#text2
+{
+    position:absolute;
+    bottom:-170%;
+    left:70%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 25px;
+    text-align: left;
+    background-color:black;  
+    height: 550px;
+    width: 700px;
+    
+}
+#text3
+{
+    position:absolute;
+    bottom:-390%;
+    left:60%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 25px;
+    text-align: left; 
+    background-color:transparent; 
+    height: 550px;
+    width: 1080px;
+}
+#text4
+{
+    position:absolute;
+    bottom:-170%;
+    left:20%;
+    transform: translate(-50%, -50%);
+    color:black;
+    font-size: 25px;
+    text-align: left;  
+}
+#text h1 span
+{
+    color:#FF6600;
+}
+
+#app img
+{
+    height: 340px;
+    width: 300px;
+    position:absolute;
+    margin-left:-490px;
+    margin-top: -150px;
+    flex:content;
+    
+    
+}
+#app
+{
+    background-color: black;
+    height: 340px;
+    width: 300px;
+    margin-top: -550px;
+    margin-left: 150px;
+
+
+}
+#container
+{
+    background-color: transparent;
+    position: absolute;
+    left: 500px;
+    bottom: 55px;
+    height: 450px;
+    width: 500px;
+    
+
+
+}
+#set1
+{
+    resize: both;
+    height: 37px;
+    width: 450px;
+}
+#set2
+{
+    resize: both;
+    height: 37px;
+    width: 450px;
+}
+#set3
+{
+    resize: both;
+    height: 200px;
+    width: 450px;
+}
+#set4
+{
+    resize: both;
+    height: 40px;
+    width: 70px;
+}
+#whatsapp
+{
+    height:35px;
+    width: 50px;
+    margin-top: -50px;
+}
+#mail{
+    height:35px;
+    width: 50px;
+}
